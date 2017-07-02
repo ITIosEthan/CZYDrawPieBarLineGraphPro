@@ -16,4 +16,4 @@
         //标注每一快的值得大小 +15 和-10 为细节调整
         float x = arcDotPoint.x + (radius + 15) * cos(startAngle + (endAngle - startAngle)/2) - 10;
         float y = arcDotPoint.y + (radius + 15) * sin(startAngle + (endAngle - startAngle)/2) - 10;
-![image](https://github.com/ITIosEthan/CZYDrawPieBarLineGraphPro/blob/master/Simulator%20Screen%20Shot%202016%E5%B9%B412%E6%9C%8823%E6%97%A5%20%E4%B8%8B%E5%8D%884.47.21.png)
+![image](https://github.com/ITIosEthan/CzyDrawPieBarLineGraphProDemo/blob/master/Simulator%20Screen%20Shot%202016%E5%B9%B412%E6%9C%8823%E6%97%A5%20%E4%B8%8B%E5%8D%884.47.21.png)
