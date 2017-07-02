@@ -1,0 +1,552 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		06C617FC1E02913F00B7E593 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 06C617FB1E02913F00B7E593 /* main.m */; };
+		06C617FF1E02913F00B7E593 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 06C617FE1E02913F00B7E593 /* AppDelegate.m */; };
+		06C618021E02913F00B7E593 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 06C618011E02913F00B7E593 /* ViewController.m */; };
+		06C618051E02913F00B7E593 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 06C618031E02913F00B7E593 /* Main.storyboard */; };
+		06C618071E02913F00B7E593 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 06C618061E02913F00B7E593 /* Assets.xcassets */; };
+		06C6180A1E02913F00B7E593 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 06C618081E02913F00B7E593 /* LaunchScreen.storyboard */; };
+		06C618151E02913F00B7E593 /* CZYDrawPieBarLineGraphTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 06C618141E02913F00B7E593 /* CZYDrawPieBarLineGraphTests.m */; };
+		06C618201E02913F00B7E593 /* CZYDrawPieBarLineGraphUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 06C6181F1E02913F00B7E593 /* CZYDrawPieBarLineGraphUITests.m */; };
+		06C618361E0291E700B7E593 /* CZYBarChartVc.m in Sources */ = {isa = PBXBuildFile; fileRef = 06C618351E0291E700B7E593 /* CZYBarChartVc.m */; };
+		06C618391E0291F800B7E593 /* CZYPieChartVc.m in Sources */ = {isa = PBXBuildFile; fileRef = 06C618381E0291F800B7E593 /* CZYPieChartVc.m */; };
+		06C6183C1E02921100B7E593 /* CZYBrokenLineChartVc.m in Sources */ = {isa = PBXBuildFile; fileRef = 06C6183B1E02921100B7E593 /* CZYBrokenLineChartVc.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		06C618111E02913F00B7E593 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 06C617EF1E02913F00B7E593 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 06C617F61E02913F00B7E593;
+			remoteInfo = CZYDrawPieBarLineGraph;
+		};
+		06C6181C1E02913F00B7E593 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 06C617EF1E02913F00B7E593 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 06C617F61E02913F00B7E593;
+			remoteInfo = CZYDrawPieBarLineGraph;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		06C617F71E02913F00B7E593 /* CZYDrawPieBarLineGraph.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CZYDrawPieBarLineGraph.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		06C617FB1E02913F00B7E593 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		06C617FD1E02913F00B7E593 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		06C617FE1E02913F00B7E593 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		06C618001E02913F00B7E593 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		06C618011E02913F00B7E593 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		06C618041E02913F00B7E593 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		06C618061E02913F00B7E593 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		06C618091E02913F00B7E593 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		06C6180B1E02913F00B7E593 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		06C618101E02913F00B7E593 /* CZYDrawPieBarLineGraphTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CZYDrawPieBarLineGraphTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		06C618141E02913F00B7E593 /* CZYDrawPieBarLineGraphTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CZYDrawPieBarLineGraphTests.m; sourceTree = "<group>"; };
+		06C618161E02913F00B7E593 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		06C6181B1E02913F00B7E593 /* CZYDrawPieBarLineGraphUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CZYDrawPieBarLineGraphUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		06C6181F1E02913F00B7E593 /* CZYDrawPieBarLineGraphUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CZYDrawPieBarLineGraphUITests.m; sourceTree = "<group>"; };
+		06C618211E02913F00B7E593 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		06C6182D1E02915000B7E593 /* czyHeader.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = czyHeader.pch; sourceTree = "<group>"; };
+		06C618341E0291E700B7E593 /* CZYBarChartVc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CZYBarChartVc.h; sourceTree = "<group>"; };
+		06C618351E0291E700B7E593 /* CZYBarChartVc.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CZYBarChartVc.m; sourceTree = "<group>"; };
+		06C618371E0291F800B7E593 /* CZYPieChartVc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CZYPieChartVc.h; sourceTree = "<group>"; };
+		06C618381E0291F800B7E593 /* CZYPieChartVc.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CZYPieChartVc.m; sourceTree = "<group>"; };
+		06C6183A1E02921100B7E593 /* CZYBrokenLineChartVc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CZYBrokenLineChartVc.h; sourceTree = "<group>"; };
+		06C6183B1E02921100B7E593 /* CZYBrokenLineChartVc.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CZYBrokenLineChartVc.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		06C617F41E02913F00B7E593 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		06C6180D1E02913F00B7E593 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		06C618181E02913F00B7E593 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		06C617EE1E02913F00B7E593 = {
+			isa = PBXGroup;
+			children = (
+				06C617F91E02913F00B7E593 /* CZYDrawPieBarLineGraph */,
+				06C618131E02913F00B7E593 /* CZYDrawPieBarLineGraphTests */,
+				06C6181E1E02913F00B7E593 /* CZYDrawPieBarLineGraphUITests */,
+				06C617F81E02913F00B7E593 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		06C617F81E02913F00B7E593 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				06C617F71E02913F00B7E593 /* CZYDrawPieBarLineGraph.app */,
+				06C618101E02913F00B7E593 /* CZYDrawPieBarLineGraphTests.xctest */,
+				06C6181B1E02913F00B7E593 /* CZYDrawPieBarLineGraphUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		06C617F91E02913F00B7E593 /* CZYDrawPieBarLineGraph */ = {
+			isa = PBXGroup;
+			children = (
+				06C617FD1E02913F00B7E593 /* AppDelegate.h */,
+				06C617FE1E02913F00B7E593 /* AppDelegate.m */,
+				06C6182D1E02915000B7E593 /* czyHeader.pch */,
+				06C618341E0291E700B7E593 /* CZYBarChartVc.h */,
+				06C618351E0291E700B7E593 /* CZYBarChartVc.m */,
+				06C618371E0291F800B7E593 /* CZYPieChartVc.h */,
+				06C618381E0291F800B7E593 /* CZYPieChartVc.m */,
+				06C6183A1E02921100B7E593 /* CZYBrokenLineChartVc.h */,
+				06C6183B1E02921100B7E593 /* CZYBrokenLineChartVc.m */,
+				06C618001E02913F00B7E593 /* ViewController.h */,
+				06C618011E02913F00B7E593 /* ViewController.m */,
+				06C618031E02913F00B7E593 /* Main.storyboard */,
+				06C618061E02913F00B7E593 /* Assets.xcassets */,
+				06C618081E02913F00B7E593 /* LaunchScreen.storyboard */,
+				06C6180B1E02913F00B7E593 /* Info.plist */,
+				06C617FA1E02913F00B7E593 /* Supporting Files */,
+			);
+			path = CZYDrawPieBarLineGraph;
+			sourceTree = "<group>";
+		};
+		06C617FA1E02913F00B7E593 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				06C617FB1E02913F00B7E593 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		06C618131E02913F00B7E593 /* CZYDrawPieBarLineGraphTests */ = {
+			isa = PBXGroup;
+			children = (
+				06C618141E02913F00B7E593 /* CZYDrawPieBarLineGraphTests.m */,
+				06C618161E02913F00B7E593 /* Info.plist */,
+			);
+			path = CZYDrawPieBarLineGraphTests;
+			sourceTree = "<group>";
+		};
+		06C6181E1E02913F00B7E593 /* CZYDrawPieBarLineGraphUITests */ = {
+			isa = PBXGroup;
+			children = (
+				06C6181F1E02913F00B7E593 /* CZYDrawPieBarLineGraphUITests.m */,
+				06C618211E02913F00B7E593 /* Info.plist */,
+			);
+			path = CZYDrawPieBarLineGraphUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		06C617F61E02913F00B7E593 /* CZYDrawPieBarLineGraph */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 06C618241E02913F00B7E593 /* Build configuration list for PBXNativeTarget "CZYDrawPieBarLineGraph" */;
+			buildPhases = (
+				06C617F31E02913F00B7E593 /* Sources */,
+				06C617F41E02913F00B7E593 /* Frameworks */,
+				06C617F51E02913F00B7E593 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CZYDrawPieBarLineGraph;
+			productName = CZYDrawPieBarLineGraph;
+			productReference = 06C617F71E02913F00B7E593 /* CZYDrawPieBarLineGraph.app */;
+			productType = "com.apple.product-type.application";
+		};
+		06C6180F1E02913F00B7E593 /* CZYDrawPieBarLineGraphTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 06C618271E02913F00B7E593 /* Build configuration list for PBXNativeTarget "CZYDrawPieBarLineGraphTests" */;
+			buildPhases = (
+				06C6180C1E02913F00B7E593 /* Sources */,
+				06C6180D1E02913F00B7E593 /* Frameworks */,
+				06C6180E1E02913F00B7E593 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				06C618121E02913F00B7E593 /* PBXTargetDependency */,
+			);
+			name = CZYDrawPieBarLineGraphTests;
+			productName = CZYDrawPieBarLineGraphTests;
+			productReference = 06C618101E02913F00B7E593 /* CZYDrawPieBarLineGraphTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		06C6181A1E02913F00B7E593 /* CZYDrawPieBarLineGraphUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 06C6182A1E02913F00B7E593 /* Build configuration list for PBXNativeTarget "CZYDrawPieBarLineGraphUITests" */;
+			buildPhases = (
+				06C618171E02913F00B7E593 /* Sources */,
+				06C618181E02913F00B7E593 /* Frameworks */,
+				06C618191E02913F00B7E593 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				06C6181D1E02913F00B7E593 /* PBXTargetDependency */,
+			);
+			name = CZYDrawPieBarLineGraphUITests;
+			productName = CZYDrawPieBarLineGraphUITests;
+			productReference = 06C6181B1E02913F00B7E593 /* CZYDrawPieBarLineGraphUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		06C617EF1E02913F00B7E593 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = macOfEthan;
+				TargetAttributes = {
+					06C617F61E02913F00B7E593 = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+					};
+					06C6180F1E02913F00B7E593 = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 06C617F61E02913F00B7E593;
+					};
+					06C6181A1E02913F00B7E593 = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 06C617F61E02913F00B7E593;
+					};
+				};
+			};
+			buildConfigurationList = 06C617F21E02913F00B7E593 /* Build configuration list for PBXProject "CZYDrawPieBarLineGraph" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 06C617EE1E02913F00B7E593;
+			productRefGroup = 06C617F81E02913F00B7E593 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				06C617F61E02913F00B7E593 /* CZYDrawPieBarLineGraph */,
+				06C6180F1E02913F00B7E593 /* CZYDrawPieBarLineGraphTests */,
+				06C6181A1E02913F00B7E593 /* CZYDrawPieBarLineGraphUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		06C617F51E02913F00B7E593 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				06C6180A1E02913F00B7E593 /* LaunchScreen.storyboard in Resources */,
+				06C618071E02913F00B7E593 /* Assets.xcassets in Resources */,
+				06C618051E02913F00B7E593 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		06C6180E1E02913F00B7E593 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		06C618191E02913F00B7E593 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		06C617F31E02913F00B7E593 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				06C618361E0291E700B7E593 /* CZYBarChartVc.m in Sources */,
+				06C618021E02913F00B7E593 /* ViewController.m in Sources */,
+				06C617FF1E02913F00B7E593 /* AppDelegate.m in Sources */,
+				06C6183C1E02921100B7E593 /* CZYBrokenLineChartVc.m in Sources */,
+				06C617FC1E02913F00B7E593 /* main.m in Sources */,
+				06C618391E0291F800B7E593 /* CZYPieChartVc.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		06C6180C1E02913F00B7E593 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				06C618151E02913F00B7E593 /* CZYDrawPieBarLineGraphTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		06C618171E02913F00B7E593 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				06C618201E02913F00B7E593 /* CZYDrawPieBarLineGraphUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		06C618121E02913F00B7E593 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 06C617F61E02913F00B7E593 /* CZYDrawPieBarLineGraph */;
+			targetProxy = 06C618111E02913F00B7E593 /* PBXContainerItemProxy */;
+		};
+		06C6181D1E02913F00B7E593 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 06C617F61E02913F00B7E593 /* CZYDrawPieBarLineGraph */;
+			targetProxy = 06C6181C1E02913F00B7E593 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		06C618031E02913F00B7E593 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				06C618041E02913F00B7E593 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		06C618081E02913F00B7E593 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				06C618091E02913F00B7E593 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		06C618221E02913F00B7E593 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		06C618231E02913F00B7E593 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		06C618251E02913F00B7E593 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/CZYDrawPieBarLineGraph/czyHeader.pch";
+				INFOPLIST_FILE = CZYDrawPieBarLineGraph/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = abbyEthanLove.CZYDrawPieBarLineGraph;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		06C618261E02913F00B7E593 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/CZYDrawPieBarLineGraph/czyHeader.pch";
+				INFOPLIST_FILE = CZYDrawPieBarLineGraph/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = abbyEthanLove.CZYDrawPieBarLineGraph;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		06C618281E02913F00B7E593 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = CZYDrawPieBarLineGraphTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = abbyEthanLove.CZYDrawPieBarLineGraphTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CZYDrawPieBarLineGraph.app/CZYDrawPieBarLineGraph";
+			};
+			name = Debug;
+		};
+		06C618291E02913F00B7E593 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = CZYDrawPieBarLineGraphTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = abbyEthanLove.CZYDrawPieBarLineGraphTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CZYDrawPieBarLineGraph.app/CZYDrawPieBarLineGraph";
+			};
+			name = Release;
+		};
+		06C6182B1E02913F00B7E593 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = CZYDrawPieBarLineGraphUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = abbyEthanLove.CZYDrawPieBarLineGraphUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = CZYDrawPieBarLineGraph;
+			};
+			name = Debug;
+		};
+		06C6182C1E02913F00B7E593 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = CZYDrawPieBarLineGraphUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = abbyEthanLove.CZYDrawPieBarLineGraphUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = CZYDrawPieBarLineGraph;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		06C617F21E02913F00B7E593 /* Build configuration list for PBXProject "CZYDrawPieBarLineGraph" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				06C618221E02913F00B7E593 /* Debug */,
+				06C618231E02913F00B7E593 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		06C618241E02913F00B7E593 /* Build configuration list for PBXNativeTarget "CZYDrawPieBarLineGraph" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				06C618251E02913F00B7E593 /* Debug */,
+				06C618261E02913F00B7E593 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		06C618271E02913F00B7E593 /* Build configuration list for PBXNativeTarget "CZYDrawPieBarLineGraphTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				06C618281E02913F00B7E593 /* Debug */,
+				06C618291E02913F00B7E593 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		06C6182A1E02913F00B7E593 /* Build configuration list for PBXNativeTarget "CZYDrawPieBarLineGraphUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				06C6182B1E02913F00B7E593 /* Debug */,
+				06C6182C1E02913F00B7E593 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 06C617EF1E02913F00B7E593 /* Project object */;
+}

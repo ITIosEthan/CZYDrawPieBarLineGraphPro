@@ -1,0 +1,33 @@
+//
+//  czyHeader.pch
+//  CZYDrawPieBarLineGraph
+//
+//  Created by macOfEthan on 16/12/15.
+//  Copyright © 2016年 macOfEthan. All rights reserved.
+//
+
+#ifndef czyHeader_pch
+#define czyHeader_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+#define kFullWidth [UIScreen mainScreen].bounds.size.width
+#define kFullHeight [UIScreen mainScreen].bounds.size.height
+#define lineGraphHeight 400
+#define kBlackColor [UIColor blackColor]
+#define kBlueColor [UIColor blueColor]
+#define kWhiteColor [UIColor whiteColor]
+#define kRedColor [UIColor redColor]
+#define kRandomColor [UIColor colorWithRed:arc4random()%256/255.0 green:arc4random()%256/255.0 blue:arc4random()%256/255.0 alpha:1.0]
+#define kClearColor [UIColor clearColor]
+#define kLightGrayColor [UIColor lightGrayColor]
+#define kFont(font) [UIFont systemFontOfSize:font]
+#define margin 30
+#define kTopSpace 20
+
+#import "CZYBarChartVc.h"
+#import "CZYPieChartVc.h"
+#import "CZYBrokenLineChartVc.h"
+
+#endif /* czyHeader_pch */
